@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Аккаунт
+{% endblock %}
+
+{% block content %}
+    <h1>Ваш аккаунт</h1>
+    <p>Это страница вашего аккаунта.</p>
+    <a href="{{ url_for('update_account') }}">Изменить данные</a>
+{% endblock %}
